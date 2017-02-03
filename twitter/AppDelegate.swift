@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Initialize Parse.
+        // Replace XXXX with the App ID and Server URL that you recieved
+        let configuration = ParseClientConfiguration { clientConfiguration in
+            clientConfiguration.applicationId = "37a97c43-bf2b-4755-9337-0006485d7f1d"
+            clientConfiguration.server = "https://ios-van-pt-parse-server-5.herokuapp.com/parse"
+        }
+        Parse.initialize(with: configuration)
+        
+        
+        let testObject = PFObject(className: "TestObject")
+        testObject["name"] = "Nancy"
+        testObject.saveInBackground(block: { (success: Bool, error: Error?) -> Void in
+            print("Object has been saved.")
+        })
+
+
         return true
     }
 
