@@ -15,7 +15,7 @@
 		FA17E11E1E28839D00E41F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA17E11C1E28839D00E41F1F /* LaunchScreen.storyboard */; };
 		FA17E1291E28839D00E41F1F /* twitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17E1281E28839D00E41F1F /* twitterTests.swift */; };
 		FA17E1341E28839D00E41F1F /* twitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17E1331E28839D00E41F1F /* twitterUITests.swift */; };
-		FA86FE851E38671A00A33BC4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA86FE841E38671A00A33BC4 /* ProfileViewController.swift */; };
+		FA908E751E44450F00A605E7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA908E741E44450F00A605E7 /* ProfileViewController.swift */; };
 		FAE505A11E2F1C8200690DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE505A01E2F1C8200690DD5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -54,11 +54,11 @@
 		FA17E12A1E28839D00E41F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA17E1331E28839D00E41F1F /* twitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitterUITests.swift; sourceTree = "<group>"; };
 		FA17E1351E28839D00E41F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA86FE841E38671A00A33BC4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA908E741E44450F00A605E7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
 		FAE505A01E2F1C8200690DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/iOS-Selfiegram-Images-master 2/Assets.xcassets"; sourceTree = "<group>"; };
 		FAE505A81E2FF53E00690DD5 /* twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE505A91E2FF53E00690DD5 /* twitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE505AA1E2FF53E00690DD5 /* twitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE505A91E2FF53E00690DD5 /* twitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = twitterTests.xctest; path = "/Users/macbook/Desktop/Selfigram/twitter/build/Debug-iphoneos/twitterTests.xctest"; sourceTree = "<absolute>"; };
+		FAE505AA1E2FF53E00690DD5 /* twitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = twitterUITests.xctest; path = "/Users/macbook/Desktop/Selfigram/twitter/build/Debug-iphoneos/twitterUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,6 @@
 				FA17E1271E28839D00E41F1F /* twitterTests */,
 				FA17E1321E28839D00E41F1F /* twitterUITests */,
 				FAE505A81E2FF53E00690DD5 /* twitter.app */,
-				FAE505A91E2FF53E00690DD5 /* twitterTests.xctest */,
-				FAE505AA1E2FF53E00690DD5 /* twitterUITests.xctest */,
 				F12896ED47BF872EC9283EBC /* Pods */,
 				5BF7ABE69A106A121F58072F /* Frameworks */,
 			);
@@ -129,8 +127,8 @@
 		FA17E1101E28839D00E41F1F /* twitter */ = {
 			isa = PBXGroup;
 			children = (
+				FA908E741E44450F00A605E7 /* ProfileViewController.swift */,
 				FA17E1111E28839D00E41F1F /* AppDelegate.swift */,
-				FA86FE841E38671A00A33BC4 /* ProfileViewController.swift */,
 				FA17E1171E28839D00E41F1F /* Main.storyboard */,
 				FAE505A01E2F1C8200690DD5 /* Assets.xcassets */,
 				FA17E11C1E28839D00E41F1F /* LaunchScreen.storyboard */,
@@ -438,7 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA86FE851E38671A00A33BC4 /* ProfileViewController.swift in Sources */,
+				FA908E751E44450F00A605E7 /* ProfileViewController.swift in Sources */,
 				FA17E1121E28839D00E41F1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

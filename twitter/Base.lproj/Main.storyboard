@@ -168,6 +168,9 @@
                                 <state key="normal" title="Camera">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="cameraButtonPressed:" destination="H9Z-nb-dzw" eventType="touchUpInside" id="ZL3-4m-LPv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnC-1Q-OYc">
                                 <rect key="frame" x="272" y="291" width="0.0" height="0.0"/>
@@ -208,6 +211,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UFo-Vb-ZRT"/>
+                    <connections>
+                        <outlet property="placeHolderImageView" destination="rbj-AR-M7t" id="DZt-sg-IOk"/>
+                        <outlet property="usernameLabel" destination="yj4-t2-DAC" id="ClD-7d-gZu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z39-qc-z4N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
